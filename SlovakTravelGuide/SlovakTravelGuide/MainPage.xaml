@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SlovakTravelGuide.MainPage"
+             BackgroundColor="White">
+
+    <StackLayout>
+        <Label 
+            Text="SLOVAK TRAVEL GUIDE"
+            FontSize="Large"
+            FontFamily="Verdana"
+            VerticalOptions="Start" 
+            HorizontalOptions="Center" 
+            TextColor="DarkSeaGreen"/>
+        <Button 
+            Text="TRAVEL" 
+            VerticalOptions="End"
+            HorizontalOptions="Center" 
+            TextColor="DarkSeaGreen" 
+            BackgroundColor="White"/>
+    </StackLayout>
+
+</ContentPage>
