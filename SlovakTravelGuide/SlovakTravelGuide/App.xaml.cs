@@ -10,7 +10,7 @@ namespace SlovakTravelGuide
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new StartMenu());
         }
 
         protected override void OnStart()
